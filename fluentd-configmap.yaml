@@ -1,0 +1,38 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: fluentd-conf
+  namespace: default
+  labels:
+    addonmanager.kubernetes.io/mode: Reconcile
+data:
+  fluent.conf: |-
+    <system>
+      log_level info
+    </system>
+
+# 以下の書式は、fluentd の入力、フィルタリング等、出力を定義するための書式サンプルです。
+#    <source>
+#    hogehoge
+#    tag example.*
+#    </source>
+
+#    <filter>
+#     hogehoge
+#    </filter>
+
+#    <match example.**>
+#     @type rewrite_tag_filter
+#      <rule>
+#       hogehoge
+#       tag rewrite.*
+#      </rule>
+#    </match>
+
+#    <match rewrite.**>
+#      @type hogehoge
+#        hogehoge
+#        <buffer>
+#         hogehoge
+#        </buffer>
+#    </match>
