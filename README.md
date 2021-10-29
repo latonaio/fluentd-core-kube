@@ -5,9 +5,9 @@ AION では、fluentd 環境を コア関連リソースとして、aion-core-ma
 
 fluentd を動かすためには、fluentd-core-kube の他に、下記のようなレポジトリを参照して、設定を行う必要があります。  
 
-* fluentd-for-docker-containers-kube  
+* fluentd-for-docker-containers  
 
-* fluentd-for-mongodb-kube  
+* fluentd-for-mongodb  
 
 * fluentd-docker-mongodb-kube  
 
