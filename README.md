@@ -9,7 +9,7 @@ fluentd を動かすためには、fluentd-core-kube の他に、下記のよう
 
 * fluentd-for-mongodb  
 
-* fluentd-docker-mongodb-kube  
+* fluentd-for-containers-mongodb-kube  
 
 # サンプル定義ファイル  
 本リポジトリには、fluentd-core-kube としてのサンプル定義ファイル fluentd-configmap.yaml が格納されています。  
