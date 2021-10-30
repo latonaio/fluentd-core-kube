@@ -5,7 +5,7 @@ SCRIPT_DIR=$(cd $(dirname $0); pwd)
 PUSH=$1
 DATE="$(date "+%Y%m%d%H%M")"
 REPOSITORY_NAME="latona"
-IMAGE_NAME="fluentd"
+IMAGE_NAME="fluentd-core-kube"
 DOCKERFILE_DIR=${SCRIPT_DIR}/
 DOCKERFILE_NAME="Dockerfile"
 
