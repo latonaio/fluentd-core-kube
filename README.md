@@ -14,9 +14,9 @@ fluentd を動かすためには、fluentd-core-kube の他に、下記のよう
 ## 動作環境
 fluentd-core-kube は、以下の動作環境を前提としています。  
 
-OS: Linux OS  
-CPU: ARM/AMD/Intel  
-Kubernetes  
+* OS: Linux OS  
+* CPU: ARM/AMD/Intel  
+* Kubernetes  
 
 ## サンプル定義ファイル  
 本リポジトリには、fluentd-core-kube としてのサンプル定義ファイル fluentd-configmap.yaml が格納されています。  
